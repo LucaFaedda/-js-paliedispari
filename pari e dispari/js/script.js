@@ -44,3 +44,16 @@ function pariDispari(num)
 
 let result = pariDispari(numero_finale)
 console.log(result)
+
+if(pari_dispari === "pari" &&  result == true ){
+    alert('Hai vinto')
+}
+else if(pari_dispari === "pari" &&  result == false){
+    alert('Hai perso')
+}
+else if(pari_dispari === "dispari" &&  result == false ){
+    alert('Hai vinto')
+}
+else{
+    alert('Hai perso')
+}
