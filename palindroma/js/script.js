@@ -16,3 +16,10 @@ console.log(parola_pali2)
 let parola_finale = parola_pali2.join("")
 
 console.log(parola_finale)
+
+if(parola_user === parola_finale){
+    alert('GG sei un vocabolario ambulante')
+}
+else{
+    alert('Ahi ahi, Cerca meglio su google')
+}
