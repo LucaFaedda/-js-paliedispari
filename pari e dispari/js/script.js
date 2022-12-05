@@ -1,6 +1,6 @@
 // chiedere all'utente se vuole pari o dispari
 
-let pari_dispari = prompt('Scelgi se pari o dispari')
+let pari_dispari = prompt("Scelgi se pari o dispari")
 console.log(pari_dispari)
 
 // chiedere di inserire un numero da 1 a 5
@@ -29,28 +29,17 @@ function somma(num1,num2)
 let numero_finale = somma(num_user, num_pc)
 console.log(somma)
 
+// con una funzione se la somma è pari o dispari
 
-
-function pariDispari(pariedispari)
+function pariDispari(num)
 {
-    if(numero_finale % 2 == 0){
-        return  true
+    if(num % 2 == 0){
+        return true
     }
     else{
-        return  false
+       return false
     }
 }
 
-let result = pariDispari(pari_dispari)
-{
-    if(pari_dispari === true){
-    alert('hai vinto')
-    }
-    else{
-        alert('hai perso')
-    }
-
-}    
-
-
-
+let result 
+console.log(numero_finale)
