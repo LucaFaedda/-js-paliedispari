@@ -21,13 +21,14 @@ console.log(`Numero pc: ${num_pc}`)
 // sommiamo i numeri 
 function somma(num1,num2)
 {
-    somma = num1 + num2 // non scrivere let somma
+    return  num1 + num2 // non scrivere let somma
 }
 
 // non dare nomi uguali a quelli della funzione
 
 let numero_finale = somma(num_user, num_pc)
-console.log(somma)
+console.log(numero_finale)
+
 
 // con una funzione se la somma è pari o dispari
 
