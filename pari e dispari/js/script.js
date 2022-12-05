@@ -41,5 +41,5 @@ function pariDispari(num)
     }
 }
 
-let result 
-console.log(numero_finale)
+let result = pariDispari(numero_finale)
+console.log(result)
