@@ -1,25 +1,22 @@
 
 // inserire problema
 
-let parola_user = prompt("Inserisci parola")
+let parola_user = prompt("Inserisci una parola palindroma")
 
 // creaiamo una variabile prima con split per selezionare lettera per lettera.
-const parola_pali = parola_user.split("")
-console.log(parola_pali)
+function parola_completa(parola){
 
-// usiamo la funzione reverse per invertirla
-let parola_pali2 = parola_pali.reverse(parola_pali)
-console.log(parola_pali2)
+    let parola_inversa = parola.split("") .reverse("") .join("")
+    return parola_inversa
+}
 
+let parola_final = parola_completa(parola_user)
 
-//infine usiamo la funzione join per riunirla
-let parola_finale = parola_pali2.join("")
+console.log(parola_final)
 
-console.log(parola_finale)
-
-if(parola_user === parola_finale){
-    alert('GG sei un vocabolario ambulante')
+if(parola_user === parola_final){
+    alert('complimentoni sai usare le parole palindrome')
 }
 else{
-    alert('Ahi ahi, Cerca meglio su google')
+    alert('ahi ahi ritenta')
 }
